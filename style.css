@@ -1,0 +1,33 @@
+@media (max-width : 768px){
+    
+    .relations {
+        display : none;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+        /* smaller text because standard is 1.5em */
+    }
+    
+    #header {
+        display: none;
+    }
+    
+    #menu {
+        display: none;
+    }
+    
+    
+}
+
+h1, #menu {
+    margin-top: 70px;
+}
+
+
+footer {
+    margin-bottom: 20px;
+    text-align:center;
+    font-style: italic
+}
+   
