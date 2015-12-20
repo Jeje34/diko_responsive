@@ -3,6 +3,7 @@ $( document ).ready(function() {
     // si smarphone ou tablette
     if (width <= 768) {
         $(document).find("h2").find("span").attr("class", "glyphicon glyphicon-chevron-down");
+        $("#content").css("min-height", "320px");
     }
 });
 

@@ -17,17 +17,25 @@
         display: none;
     }
     
-    
+    #bottomFooter {
+        display: none;
+    }    
 }
 
 h1, #menu {
     margin-top: 70px;
 }
 
+#content {
+    min-height: 500px;
+}
 
 footer {
     margin-bottom: 20px;
     text-align:center;
-    font-style: italic
+    font-style: italic;    
 }
-   
+
+#messBienvenue {
+    margin-top: 70px;
+}

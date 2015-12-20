@@ -1,6 +1,6 @@
 <?php
     // librairie qui permet de parser du HTML
-    include('advanced_html_dom.php');
+    include('lib/advanced_html_dom.php');
     
     /* tableau associatif:
      * cle: le label (qui apparait dans le menu)
@@ -16,8 +16,7 @@
         
         echo '<h1>' . $terme . '</h1><hr>';
         
-        // définitions
-        
+        // définitions        
         echo getDefinitions($html);
         
         displayRelations(getRelations('r_raff_sem', $html), 'Raffinements sémantiques');
