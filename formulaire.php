@@ -15,14 +15,11 @@
                
         <div id="navbar" class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" action="index.php" method="get">
-                <div class="form-group" >
-                    <!-- on utilise un tableau pour aligner le input et le bouton -->
-                    <table>
-                        <tr>
-                            <td id="tdInput"><input id="terme" name="terme" placeholder="Veuillez saisir un terme" class="form-control input-xs" type="search"></td>
-                            <td id="tdButton"><button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button></td>    
-                        </tr>
-                    </table>
+                <div class="input-group" >
+                    <input id="terme" name="terme" placeholder="Veuillez saisir un terme" class="form-control input-xs" type="search">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
                 </div>
             </form>
         </div>
