@@ -27,7 +27,7 @@
                             $terme = $_GET['terme'];
                             parseAndDisplay($terme);
                         } else {
-                            echo '<div id="messBienvenue">Veuillez saisir un terme dans la barre de recherche en haut à droite</div>';
+                            include("accueil.php");
                         }
                     ?>
                 </div>

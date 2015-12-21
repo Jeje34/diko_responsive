@@ -1,3 +1,35 @@
+
+
+#content {   
+    margin-top: 70px;
+}
+
+footer {
+    margin-bottom: 20px;
+    text-align:center;
+    font-style: italic;    
+}
+
+#menu {    
+    margin-top: 70px;
+}
+
+.form-group input {
+    margin-right: 5px;
+}
+
+.form-group button {
+    height: 34px;
+}
+
+#logo, #mini_logo {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: block
+}
+
+
 @media (max-width : 768px){
     
     .relations {
@@ -8,34 +40,17 @@
         font-size: 1.3em;
         /* smaller text because standard is 1.5em */
     }
-    
-    #header {
+        
+    #menu, #logo, #bottomFooter  {
         display: none;
     }
     
-    #menu {
-        display: none;
+    .tdButton {
+        width: 80px;
     }
     
-    #bottomFooter {
-        display: none;
-    }    
-}
-
-h1, #menu {
-    margin-top: 70px;
-}
-
-#content {
-    min-height: 500px;
-}
-
-footer {
-    margin-bottom: 20px;
-    text-align:center;
-    font-style: italic;    
-}
-
-#messBienvenue {
-    margin-top: 70px;
+    table {
+        margin-left:auto; 
+        margin-right:auto;
+    } 
 }
