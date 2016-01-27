@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img id="mini_logo" src="img/mini_logo_diko.png" alt="Logo de Diko" />
                 Responsive
             </a>

@@ -14,14 +14,6 @@ footer {
     margin-top: 70px;
 }
 
-.form-group input {
-    margin-right: 5px;
-}
-
-.form-group button {
-    height: 34px;
-}
-
 #logo, #mini_logo {
     float: left;
     margin-right: 20px;
@@ -29,8 +21,16 @@ footer {
     display: block
 }
 
+.input-group input {
+    margin-right: 5px;
+}
 
-@media (max-width : 768px){
+.input-group button {
+    height: 34px;
+}
+
+
+@media (max-width : 980px){
     
     .relations {
         display : none;
@@ -43,14 +43,5 @@ footer {
         
     #menu, #logo, #bottomFooter  {
         display: none;
-    }
-    
-    .tdButton {
-        width: 80px;
-    }
-    
-    table {
-        margin-left:auto; 
-        margin-right:auto;
-    } 
+    }   
 }
